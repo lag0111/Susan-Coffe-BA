@@ -11,7 +11,7 @@ const multer = require('multer')
 var app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:4000',
+  origin: '*',
   credentials: true,            //access-control-allow-credentials:true
   optionSuccessStatus: 200
 }
