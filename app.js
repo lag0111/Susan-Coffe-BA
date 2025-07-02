@@ -27,10 +27,7 @@ var orderRouter = require('./routes/order')
 
 var app = express();
 
-mogoose.connect('mongodb+srv://thuan01112003:thuandz123@cluster0.khf1y.mongodb.net/susan-coffee', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+mogoose.connect('mongodb+srv://thuan01112003:thuandz123@cluster0.khf1y.mongodb.net/susan-coffee')
   .then(() => console.log('kết nối đến vệ tinh thành công ❤️ ❤️'))
   .catch(err => console.log('không thể kết nối đến hành tinh ',err));
 
