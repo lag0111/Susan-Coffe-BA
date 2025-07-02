@@ -27,7 +27,7 @@ var orderRouter = require('./routes/order')
 
 var app = express();
 
-mogoose.connect('mongodb://localhost:27017/xuongthuchanh', {
+mogoose.connect('mongodb+srv://thuan01112003:thuandz123@cluster0.khf1y.mongodb.net/susan-coffee', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
